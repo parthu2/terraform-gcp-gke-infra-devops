@@ -1,6 +1,6 @@
 # Terraform Settings Block
 terraform {
-  required_version = ">= 1.9"
+  required_version = ">= 1.5"
   required_providers {
     google = {
       source = "hashicorp/google"
@@ -8,7 +8,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket = "terraform-on-gcp-gke"
+    bucket = "terraform-on-gcp-gke-backend1"
     prefix = "dev/gke-cluster"    
   }
 }

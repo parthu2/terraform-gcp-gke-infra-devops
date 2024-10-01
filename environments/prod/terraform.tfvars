@@ -1,4 +1,4 @@
-gcp_project     = "gcplearn9"
+gcp_project     = "terraformgke-2024"
 gcp_region     = "us-central1"
 environment     = "prod"
 business_divsion = "hr"
